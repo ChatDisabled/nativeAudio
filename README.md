@@ -43,7 +43,7 @@
 
 3. Now you are once again ready to simply Import XML inside of CodeWalker and you should have a valid `.dat54.rel` file.
 
-Following the same folder structure as mentioned above and a simple code snippet, you should now have working "native" sounds 😊
+Following the same folder structure as mentioned above and a simple code snippet, you should now have working "native" sounds 😊. Thanks too everyone making this possible and spreading infortmation on this topic. And I highly suggest you use [this repo](https://github.com/Monkeypolice188/Monkys-Audio-Research) and join the [CodeWalker discord](https://discord.gg/codewalker) to find more information about the topic
 
 [^1]: https://media.discordapp.net/attachments/844240881283366962/1136305015754076210/V3R14LYUIVgpZw.png
 
