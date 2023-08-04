@@ -15,7 +15,7 @@
     </Item>
     <Item>
      <Type>format</Type>
-     <Codec>PCM</Codec>
+     <Codec>ADPCM</Codec>
      <Samples value="135417" />
      <SampleRate value="32000" />
      <Headroom value="-100" />
@@ -40,7 +40,7 @@
     </Item>
     <Item>
      <Type>format</Type>
-     <Codec>PCM</Codec>
+     <Codec>ADPCM</Codec>
      <Samples value="33436" />
      <SampleRate value="32000" />
      <Headroom value="-100" />
