@@ -11,11 +11,11 @@
 4. Using the template file included that is called `custom_sounds.awc.xml`, I want you to edit this file in whatever IDE you use. I already included 2 example sounds in the template.
     - Firstly change both the `<Name>` and `<FileName>` entries. `<FileName>` is going to be the filename of your converted sound files which you put in the folder `custom_sounds`. `<Name>` however can be anything you want but it is simply easier to keep this the same or rather similar.
     - `<Codec>` will be `PCM` since we converted the sounds into this format.
-    - `<SampleRate>` will be `<SampleRate value="32000" />` because we used the 32Hz sample rate. The `<Samples>` value however needs to be calculated by you by doing `audio duration * sample rate`. If you don't know the exact duration I would highly advise you use [Audacity](https://www.audacityteam.org/) for this part. Once Audacity is installed simply drag the sound into it, double click to select the whole clip. The samples value will be displayed bellow[^2]. Fill this in inside the `.xml` file.
-        
+    - `<SampleRate>` will be `<SampleRate value="32000" />` because we used the 32kHz sample rate. The `<Samples>` value however needs to be calculated by you by doing `audio duration * sample rate`. If you don't know the exact duration I would highly advise you use [Audacity](https://www.audacityteam.org/) for this part. Once Audacity is installed simply drag the sound into it, double click to select the whole clip. The samples value will be displayed below[^2]. Fill this in inside the `.xml` file.
+
         - Now I'm no audio head, but there are other entries included which you can play with to prepare your sounds before use. But I would keep `<LoopPoint>` at minus 1 because otherwise your sound will keep looping if this is set at 0 for example. Have fun and play around with these entries.
 
-5. Once you added all your sound entries you can go ahead and open CodeWalker[^3]. Make sure both your folder containing the sounds and the `.xml` file you just edited are on the same level so that wherever you put them you can see them both. Enable edit mode and right click to Import XML. Find your XML file and done. Now you should have a working `.awc` container with all the sounds included. If you get `"Object reference not set to an instance of an object"` then your folder/file structure is wrong, the .xml and folder containing the sounds is named differently. Or you used a wrong name to get the sound in your `.xml` file.
+5. Once you have added all of your sound entries you can go ahead and open CodeWalker[^3]. Make sure both your folder containing the sounds and the `.xml` file you just edited are on the same level so that wherever you put them you can see them both. Enable edit mode and right click to Import XML. Find your XML file and press done. Now you should have a working `.awc` container with all the sounds included. If you get `"Object reference not set to an instance of an object"` then your folder/file structure is wrong, the .xml and folder containing the sounds is named differently. Or you used a wrong name to get the sound in your `.xml` file.
 
 ### Now onto making the corresponding `.dat54` file
 
@@ -43,7 +43,7 @@
 
 3. Now you are once again ready to simply Import XML inside of CodeWalker and you should have a valid `.dat54.rel` file.
 
-Following the same folder structure as mentioned above and a simple code snippet, you should now have working "native" sounds 😊. Thanks too everyone making this possible and spreading information on this topic. And I highly suggest you use [this repo](https://github.com/Monkeypolice188/Monkys-Audio-Research) and join the [CodeWalker discord](https://discord.gg/codewalker) to find more information about the topic
+Following the same folder structure as mentioned above and a simple code snippet, you should now have working "native" sounds 😊. Thanks to everyone making this possible and spreading information on this topic. And I highly suggest you use [this repo](https://github.com/Monkeypolice188/Monkys-Audio-Research) and join the [CodeWalker discord](https://discord.gg/codewalker) to find more information about the topic
 
 [^1]: https://media.discordapp.net/attachments/844240881283366962/1136305015754076210/V3R14LYUIVgpZw.png
 
@@ -51,6 +51,6 @@ Following the same folder structure as mentioned above and a simple code snippet
 
 [^3]: As of writing, I used `CodeWalker30_dev44`
 
-[^4]: A sample rate of 32Hz mostly gets used for simple sound effects. 44.1 and 48Hz gets used for songs. And 24Hz gets used for speech interactions.
+[^4]: A sample rate of 32kHz mostly gets used for simple sound effects. 44.1 and 48kHz gets used for songs. And 24kHz gets used for speech interactions.
 
 [^5]: There seems to be some kind of limit on the size of the `.wav` and even the `.awc`. Limit is unknown(?) but keep it under ~1.5MB. Knowing that the base game files exceed this there *should* be a way to counteract this "limit".
