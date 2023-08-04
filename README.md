@@ -11,7 +11,7 @@
 4. Using the template file included that is called `custom_sounds.awc.xml`, I want you to edit this file in whatever IDE you use. I already included 2 example sounds in the template.
     - Firstly change both the `<Name>` and `<FileName>` entries. `<FileName>` is going to be the filename of your converted sound files which you put in the folder `custom_sounds`. `<Name>` however can be anything you want but it is simply easier to keep this the same or rather similar.
     - `<Codec>` will be `PCM` since we converted the sounds into this format.
-    - `<SampleRate>` will be `<SampleRate value="32000" />` because we used the 32Hz sample rate. The `<Samples>` value however needs to be calculated by you by doing `audio duration * sample rate`. If you don't know the exact duration I would highly advise you use [Audacity](https://www.audacityteam.org/) for this part. Once Audacity is installed simply drag the sound into it, double click to select the whole clip. The samples value will be displayed bellow[^2]. Fill this in inside the `.xml` file.
+    - `<SampleRate>` will be `<SampleRate value="32000" />` because we used the 32kHz sample rate. The `<Samples>` value however needs to be calculated by you by doing `audio duration * sample rate`. If you don't know the exact duration I would highly advise you use [Audacity](https://www.audacityteam.org/) for this part. Once Audacity is installed simply drag the sound into it, double click to select the whole clip. The samples value will be displayed bellow[^2]. Fill this in inside the `.xml` file.
         
         - Now I'm no audio head, but there are other entries included which you can play with to prepare your sounds before use. But I would keep `<LoopPoint>` at minus 1 because otherwise your sound will keep looping if this is set at 0 for example. Have fun and play around with these entries.
 
@@ -51,6 +51,6 @@ Following the same folder structure as mentioned above and a simple code snippet
 
 [^3]: As of writing, I used `CodeWalker30_dev44`
 
-[^4]: A sample rate of 32Hz mostly gets used for simple sound effects. 44.1 and 48Hz gets used for songs. And 24Hz gets used for speech interactions.
+[^4]: A sample rate of 32kHz mostly gets used for simple sound effects. 44.1 and 48kHz gets used for songs. And 24kHz gets used for speech interactions.
 
 [^5]: There seems to be some kind of limit on the size of the `.wav` and even the `.awc`. Limit is unknown(?) but keep it under ~1.5MB. Knowing that the base game files exceed this there *should* be a way to counteract this "limit".
