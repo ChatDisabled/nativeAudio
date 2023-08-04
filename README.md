@@ -4,7 +4,7 @@
 1. Gather all the sounds you want to use. This is obviously personal preference and this can be done though https://www.youtube.com/ or whatever. Preferably these sounds should be in the `Waveform Audio File Format | .wav for short`. But these are hard to come by. Which is no problem as we can do this ourselves.
 
 2. Once you got everything you want, you will need to convert these sounds to `.wav` files. This can be done however you want but I personally use Sony Vegas as that is what I am comfortable with. As long if you do what is written below there should be no problem whatever software you use.
-    - Simply drag & drop one of the sounds in your software of choice, and render it back into a `.wav` with a sample rate (Hz) of 32.000, bit depth of 8 or 16 and it has to be in mono, not stereo. The format will be `PCM`. Do this for every sound you have[^1][^4][^5].
+    - Simply drag & drop one of the sounds in your software of choice, and render it back into a `.wav` with a sample rate (Hz) of 32.000, bit depth of 8 or 16 and it has to be in mono, not stereo. The format will be `PCM` or `ADPCM`. Do this for every sound you have[^1][^4][^5].
 
 3. Now put all of these sound files in a folder. For the sake of this tutorial call this folder `custom_sounds`.
 
@@ -15,7 +15,14 @@
 
         - Now I'm no audio head, but there are other entries included which you can play with to prepare your sounds before use. But I would keep `<LoopPoint>` at minus 1 because otherwise your sound will keep looping if this is set at 0 for example. Have fun and play around with these entries.
 
-5. Once you have added all of your sound entries you can go ahead and open CodeWalker[^3]. Make sure both your folder containing the sounds and the `.xml` file you just edited are on the same level so that wherever you put them you can see them both. Enable edit mode and right click to Import XML. Find your XML file and press done. Now you should have a working `.awc` container with all the sounds included. If you get `"Object reference not set to an instance of an object"` then your folder/file structure is wrong, the .xml and folder containing the sounds is named differently. Or you used a wrong name to get the sound in your `.xml` file.
+5. Once you have added all of your sound entries you can go ahead and open CodeWalker[^3]. Make sure both your folder containing the sounds and the `.xml` file you just edited are on the same level so that wherever you put them you can see them both. Enable edit mode and right click to Import XML. Find your XML file and press done. Now you should have a working `.awc` container with all the sounds included. Upon importing, if you get `"Object reference not set to an instance of an object"`, it can be for a multitude of reasons such as:
+  - Incorrect folder/file structure
+  - .awc.xml file name does not match folder name
+  - Soundname cannot be found in folder (either missing or typo in either filename or awc file entry)
+  - The sound is stero (>=2 channels) instead of Mono
+  - The sound is not PCM or ADPCM
+  - Invalid XML entry (e.g. missing information, such as samples, name etc.)
+
 
 ### Now onto making the corresponding `.dat54` file
 
