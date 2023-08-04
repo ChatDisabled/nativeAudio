@@ -4,7 +4,7 @@
 1. Gather all the sounds you want to use. This is obviously personal preference and this can be done though https://www.youtube.com/ or whatever. Preferably these sounds should be in the `Waveform Audio File Format | .wav for short`. But these are hard to come by. Which is no problem as we can do this ourselves.
 
 2. Once you got everything you want, you will need to convert these sounds to `.wav` files. This can be done however you want but I personally use Sony Vegas as that is what I am comfortable with. As long if you do what is written below there should be no problem whatever software you use.
-    - Simply drag & drop one of the sounds in your software of choice, and render it back into a `.wav` with a sample rate (Hz) of 32.000, bit depth of 8 or 16 and it has to be in mono, not stereo. The format will be `PCM`. Do this for every sound you have[^1][^4][^5][^6].
+    - Simply drag & drop one of the sounds in your software of choice, and render it back into a `.wav` with a sample rate (Hz) of 32.000, bit depth of 8 or 16 and it has to be in mono, not stereo. The format will be `PCM` or `ADPCM`. Do this for every sound you have[^1][^4][^5][^6].
 
 3. Now put all of these sound files in a folder. For the sake of this tutorial call this folder `custom_sounds`.
 
