@@ -4,7 +4,7 @@
 1. Gather all the sounds you want to use. This is obviously personal preference and this can be done though https://www.youtube.com/ or whatever. Preferably these sounds should be in the `Waveform Audio File Format | .wav for short`. But these are hard to come by. Which is no problem as we can do this ourselves.
 
 2. Once you got everything you want, you will need to convert these sounds to `.wav` files. This can be done however you want but I personally use Sony Vegas as that is what I am comfortable with. As long if you do what is written below there should be no problem whatever software you use.
-    - Simply drag & drop one of the sounds in your software of choice, and render it back into a `.wav` with a sample rate (Hz) of 32.000, bit depth of 8 or 16 and it has to be in mono, not stereo. The format will be `PCM` or `ADPCM`. Do this for every sound you have[^1][^4][^5][^6].
+    - Simply drag & drop one of the sounds in your software of choice, and render it back into a `.wav` with a sample rate (Hz) of 32.000, bit depth of 8 or 16 and it has to be in mono, not stereo. The format will be `PCM` or `ADPCM`. Do this for every sound you have[^1][^4][^5].
 
 3. Now put all of these sound files in a folder. For the sake of this tutorial call this folder `custom_sounds`.
 
@@ -61,5 +61,3 @@ Following the same folder structure as mentioned above and a simple code snippet
 [^4]: A sample rate of 32kHz mostly gets used for simple sound effects. 44.1 and 48kHz gets used for songs. And 24kHz gets used for speech interactions.
 
 [^5]: There seems to be some kind of limit on the size of the `.wav` and even the `.awc`. Limit is unknown(?) but keep it under ~1.5MB. Knowing that the base game files exceed this there *should* be a way to counteract this "limit".
-
-[^6]: While AWC support both PCM and ADPCM, Codewalker automatically converts ADPCM to PCM [source](https://github.com/dexyfex/CodeWalker/blob/9d76f2c6c42b580e67aabf293e3c57be5edbb190/CodeWalker.Core/GameFiles/FileTypes/AwcFile.cs#L1536-L1541)
