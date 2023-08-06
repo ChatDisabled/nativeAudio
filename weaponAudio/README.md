@@ -5,3 +5,7 @@ The example provided here is the x16 pistol for which I used [this post](https:/
 
 If you just want to test this out. Run this resource (everything withing `weaponAudio`) and edit your weapon.meta of choice where you want to apply the sound. Find the `<Audio>` entry and replace it with `x16_custom_player_master`.
 
+
+
+https://github.com/ChatDisabled/nativeAudio/assets/44729807/9c6567f9-1820-40cd-9996-53c6ba16430d
+
