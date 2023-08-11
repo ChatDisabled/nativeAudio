@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Dat54>
- <Version value="6353779" />
- <ContainerPaths>
-  <Item>dlccustomweaponsounds\custom_weapon_sounds</Item>
- </ContainerPaths>
- <Items>
-  <Item type="MultitrackSound">
-   <Name>x16_custom_player_master</Name>
-   <Header>
-    <Flags value="0x00008001" />
-    <Flags2 value="0xAAA09AA2" />
-    <Category>hash_80722AAA</Category>
-   </Header>
-   <ChildSounds>
-    <Item>ptl_sns_player_mech_env</Item>
-    <Item>ptl_x16_player_stereo</Item>
-    <Item>ptl_sns_player_sub</Item>
-   </ChildSounds>
-  </Item>
+    <Version value="6353779" />
+    <ContainerPaths>
+        <Item>dlccustomweaponsounds\custom_weapon_sounds</Item>
+    </ContainerPaths>
+    <Items>
+        <Item type="MultitrackSound">
+            <Name>x16_custom_player_master</Name>
+            <Header>
+                <Flags value="0x00008001" />
+                <Flags2 value="0xAAA09AA2" />
+                <Category>hash_80722AAA</Category>
+            </Header>
+            <ChildSounds>
+                <Item>ptl_sns_player_mech_env</Item>
+                <Item>ptl_x16_player_stereo</Item>
+                <Item>ptl_sns_player_sub</Item>
+            </ChildSounds>
+        </Item>
 
-  <Item type="MultitrackSound">
-   <Name>ptl_x16_player_stereo</Name>
-   <Header>
-    <Flags value="0x00008035" />
-    <Flags2 value="0xAAA0AAAA" />
-    <Volume value="200" />
-    <Pitch value="600" />
-    <PitchVariance value="100" />
-    <Category>hash_80722AAA</Category>
-   </Header>
-   <ChildSounds>
-    <Item>ptl_x16_player_hi_l</Item>
-    <Item>ptl_x16_player_hi_r</Item>
-   </ChildSounds>
-  </Item>
-  <Item type="SimpleSound">
-   <Name>ptl_x16_player_hi_l</Name>
-   <Header>
-    <Flags value="0x00000040" />
-    <Pan value="315" />
-   </Header>
-   <ContainerName>dlccustomweaponsounds/custom_weapon_sounds</ContainerName>
-   <FileName>x16_mainfire</FileName>
-   <WaveSlotNum value="0" />
-  </Item>
-  <Item type="SimpleSound">
-   <Name>ptl_x16_player_hi_r</Name>
-   <Header>
-    <Flags value="0x00000040" />
-    <Pan value="45" />
-   </Header>
-   <ContainerName>dlccustomweaponsounds/custom_weapon_sounds</ContainerName>
-   <FileName>x16_mainfire</FileName>
-   <WaveSlotNum value="0" />
-  </Item>
+        <Item type="MultitrackSound">
+            <Name>ptl_x16_player_stereo</Name>
+            <Header>
+                <Flags value="0x00008035" />
+                <Flags2 value="0xAAA0AAAA" />
+                <Volume value="200" />
+                <Pitch value="600" />
+                <PitchVariance value="100" />
+                <Category>hash_80722AAA</Category>
+            </Header>
+            <ChildSounds>
+                <Item>ptl_x16_player_hi_l</Item>
+                <Item>ptl_x16_player_hi_r</Item>
+            </ChildSounds>
+        </Item>
+        <Item type="SimpleSound">
+            <Name>ptl_x16_player_hi_l</Name>
+            <Header>
+                <Flags value="0x00000040" />
+                <Pan value="315" />
+            </Header>
+            <ContainerName>dlccustomweaponsounds/custom_weapon_sounds</ContainerName>
+            <FileName>x16_mainfire</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>ptl_x16_player_hi_r</Name>
+            <Header>
+                <Flags value="0x00000040" />
+                <Pan value="45" />
+            </Header>
+            <ContainerName>dlccustomweaponsounds/custom_weapon_sounds</ContainerName>
+            <FileName>x16_mainfire</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
 
- </Items>
+    </Items>
 </Dat54>

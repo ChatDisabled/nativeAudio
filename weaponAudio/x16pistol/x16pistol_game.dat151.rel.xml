@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Dat151>
- <Version value="6353779" />
- <Items>
-  <Item type="WeaponAudioItem" ntOffset="0">
-   <Name>audio_item_x16pistol</Name>
-   <FallBackWeapon>w_ptl_x16_player</FallBackWeapon>
-   <Weapons>
-    <Item>
-     <Category>player</Category>
-     <Weapon>w_ptl_x16_player</Weapon>
-    </Item>
-   </Weapons>
-  </Item>
-  <Item type="Weapon" ntOffset="244">
-   <Name>w_ptl_x16_player</Name>
-   <Flags value="0xAAAAAA00" />
-   <Version value="2" />
-   <PlayerFire>x16_custom_player_master</PlayerFire>
-   <SuppressedFire>hash_71A29FA0</SuppressedFire>
-   <RapidFire>silence</RapidFire>
-   <Report>hash_2033E207</Report>
-   <Unk05 value="-2" />
-   <Unk06 value="50" />
-   <Unk07 value="0.2" />
-   <Echo>hash_04F0F7BC</Echo>
-   <Unk09>hash_F80C7190</Unk09>
-   <Unk10>null_sound</Unk10>
-   <Unk11>null_sound</Unk11>
-   <Unk12>hash_C95EEE7D</Unk12>
-   <Unk13>hash_BB0A8AE1</Unk13>
-   <Unk14>null_sound</Unk14>
-   <Unk15>null_sound</Unk15>
-   <Unk16>hash_A686869A</Unk16>
-   <Unk17>hash_41D1CA5F</Unk17>
-   <PickUpWeapon>hash_8ACDC8A9</PickUpWeapon>
-   <Unk19 value="0" />
-   <Unk20>null_sound</Unk20>
-   <Unk21>null_sound</Unk21>
-   <Unk22 />
-   <Unk23>ptl_x16_player_hi_l</Unk23>
-   <InteriorFire>hash_D4D27BB8</InteriorFire>
-   <Reload>hash_A2BE26FB</Reload>
-   <Unk26>hash_41D1CA5F</Unk26>
-   <Unk27>hash_41D1CA5F</Unk27>
-   <Unk28 value="0" />
-   <Unk29 value="0" />
-   <Aim>hash_E35374CE</Aim>
-   <Unk31>null_sound</Unk31>
-   <Unk32>null_sound</Unk32>
-   <SlowMotionFire>ptl_sns_player_slow_mo</SlowMotionFire>
-   <Unk34>null_sound</Unk34>
-   <Unk35>null_sound</Unk35>
-   <Unk36>null_sound</Unk36>
-   <Unk37>null_sound</Unk37>
-   <SlowMotionReport>hash_B9D09508</SlowMotionReport>
-   <Unk39>null_sound</Unk39>
-   <Unk40>null_sound</Unk40>
-   <Unk41>null_sound</Unk41>
-   <Unk42>null_sound</Unk42>
-   <Unk43>null_sound</Unk43>
-   <Unk44>null_sound</Unk44>
-   <Unk45>null_sound</Unk45>
-   <Unk46 />
-   <Unk47 />
-   <Unk48 value="0" />
-   <Unk49 value="0" />
-   <Unk50 value="0" />
-  </Item>
- </Items>
+    <Version value="6353779" />
+    <Items>
+        <Item type="WeaponAudioItem" ntOffset="0">
+            <Name>audio_item_x16pistol</Name>
+            <FallBackWeapon>w_ptl_x16_player</FallBackWeapon>
+            <Weapons>
+                <Item>
+                    <Category>player</Category>
+                    <Weapon>w_ptl_x16_player</Weapon>
+                </Item>
+            </Weapons>
+        </Item>
+        <Item type="Weapon" ntOffset="244">
+            <Name>w_ptl_x16_player</Name>
+            <Flags value="0xAAAAAA00" />
+            <Version value="2" />
+            <PlayerFire>x16_custom_player_master</PlayerFire>
+            <SuppressedFire>hash_71A29FA0</SuppressedFire>
+            <RapidFire>silence</RapidFire>
+            <Report>hash_2033E207</Report>
+            <Unk05 value="-2" />
+            <Unk06 value="50" />
+            <Unk07 value="0.2" />
+            <Echo>hash_04F0F7BC</Echo>
+            <Unk09>hash_F80C7190</Unk09>
+            <Unk10>null_sound</Unk10>
+            <Unk11>null_sound</Unk11>
+            <Unk12>hash_C95EEE7D</Unk12>
+            <Unk13>hash_BB0A8AE1</Unk13>
+            <Unk14>null_sound</Unk14>
+            <Unk15>null_sound</Unk15>
+            <Unk16>hash_A686869A</Unk16>
+            <Unk17>hash_41D1CA5F</Unk17>
+            <PickUpWeapon>hash_8ACDC8A9</PickUpWeapon>
+            <Unk19 value="0" />
+            <Unk20>null_sound</Unk20>
+            <Unk21>null_sound</Unk21>
+            <Unk22 />
+            <Unk23>ptl_x16_player_hi_l</Unk23>
+            <InteriorFire>hash_D4D27BB8</InteriorFire>
+            <Reload>hash_A2BE26FB</Reload>
+            <Unk26>hash_41D1CA5F</Unk26>
+            <Unk27>hash_41D1CA5F</Unk27>
+            <Unk28 value="0" />
+            <Unk29 value="0" />
+            <Aim>hash_E35374CE</Aim>
+            <Unk31>null_sound</Unk31>
+            <Unk32>null_sound</Unk32>
+            <SlowMotionFire>ptl_sns_player_slow_mo</SlowMotionFire>
+            <Unk34>null_sound</Unk34>
+            <Unk35>null_sound</Unk35>
+            <Unk36>null_sound</Unk36>
+            <Unk37>null_sound</Unk37>
+            <SlowMotionReport>hash_B9D09508</SlowMotionReport>
+            <Unk39>null_sound</Unk39>
+            <Unk40>null_sound</Unk40>
+            <Unk41>null_sound</Unk41>
+            <Unk42>null_sound</Unk42>
+            <Unk43>null_sound</Unk43>
+            <Unk44>null_sound</Unk44>
+            <Unk45>null_sound</Unk45>
+            <Unk46 />
+            <Unk47 />
+            <Unk48 value="0" />
+            <Unk49 value="0" />
+            <Unk50 value="0" />
+        </Item>
+    </Items>
 </Dat151>

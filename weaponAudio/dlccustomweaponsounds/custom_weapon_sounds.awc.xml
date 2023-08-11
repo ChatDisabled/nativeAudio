@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AudioWaveContainer>
- <Version value="1" />
- <ChunkIndices value="True" />
- <Streams>
-  <Item>
-   <Name>x16_mainfire</Name>
-   <FileName>x16_mainfire.wav</FileName>
-   <Chunks>
-    <Item>
-     <Type>peak</Type>
-    </Item>
-    <Item>
-     <Type>data</Type>
-    </Item>
-    <Item>
-     <Type>format</Type>
-     <Codec>ADPCM</Codec>
-     <Samples value="37637" />
-     <SampleRate value="48000" />
-     <Headroom value="-199" />
-     <PlayBegin value="0" />
-     <PlayEnd value="0" />
-     <LoopBegin value="0" />
-     <LoopEnd value="0" />
-     <LoopPoint value="-1" />
-     <Peak unk="0" />
-    </Item>
-   </Chunks>
-  </Item>
- </Streams>
+    <Version value="1" />
+    <ChunkIndices value="True" />
+    <Streams>
+        <Item>
+            <Name>x16_mainfire</Name>
+            <FileName>x16_mainfire.wav</FileName>
+            <Chunks>
+                <Item>
+                    <Type>peak</Type>
+                </Item>
+                <Item>
+                    <Type>data</Type>
+                </Item>
+                <Item>
+                    <Type>format</Type>
+                    <Codec>ADPCM</Codec>
+                    <Samples value="37637" />
+                    <SampleRate value="48000" />
+                    <Headroom value="-199" />
+                    <PlayBegin value="0" />
+                    <PlayEnd value="0" />
+                    <LoopBegin value="0" />
+                    <LoopEnd value="0" />
+                    <LoopPoint value="-1" />
+                    <Peak unk="0" />
+                </Item>
+            </Chunks>
+        </Item>
+    </Streams>
 </AudioWaveContainer>

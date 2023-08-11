@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Dat54>
- <Version value="7314721" />
- <ContainerPaths>
-  <Item>audiodirectory\custom_sounds</Item>
- </ContainerPaths>
- <Items>
-  <!-- SimpleSounds -->
-  <Item type="SimpleSound">
-   <Name>sound_01_sp</Name>
-   <Header>
-    <Flags value="0x00008004" />
-    <Volume value="200" />
-    <Category>scripted</Category>
-   </Header>
-   <ContainerName>audiodirectory/custom_sounds</ContainerName>
-   <FileName>sound01</FileName>
-   <WaveSlotNum value="0" />
-  </Item>
-  <Item type="SimpleSound">
-   <Name>sound_02_sp</Name>
-   <Header>
-    <Flags value="0x00008004" />
-    <Volume value="200" />
-    <Category>scripted</Category>
-   </Header>
-   <ContainerName>audiodirectory/custom_sounds</ContainerName>
-   <FileName>sound02</FileName>
-   <WaveSlotNum value="0" />
-  </Item>
+    <Version value="7314721" />
+    <ContainerPaths>
+        <Item>audiodirectory\custom_sounds</Item>
+    </ContainerPaths>
+    <Items>
+        <!-- SimpleSounds -->
+        <Item type="SimpleSound">
+            <Name>sound_01_sp</Name>
+            <Header>
+                <Flags value="0x00008004" />
+                <Volume value="200" />
+                <Category>scripted</Category>
+            </Header>
+            <ContainerName>audiodirectory/custom_sounds</ContainerName>
+            <FileName>sound01</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>sound_02_sp</Name>
+            <Header>
+                <Flags value="0x00008004" />
+                <Volume value="200" />
+                <Category>scripted</Category>
+            </Header>
+            <ContainerName>audiodirectory/custom_sounds</ContainerName>
+            <FileName>sound02</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
 
-  <!-- SoundSets !-->
-  <Item type="SoundSet">
-   <Name>special_soundset</Name>
-   <Header>
-    <Flags value="0xAAAAAAAA" />
-   </Header>
-   <SoundSets>
-    <Item>
-     <ScriptName>wow</ScriptName>
-     <ChildSound>sound_01_sp</ChildSound>
-    </Item>
-    <Item>
-     <ScriptName>error</ScriptName>
-     <ChildSound>sound_02_sp</ChildSound>
-    </Item>
-   </SoundSets>
-  </Item>
- </Items>
+        <!-- SoundSets !-->
+        <Item type="SoundSet">
+            <Name>special_soundset</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <SoundSets>
+                <Item>
+                    <ScriptName>wow</ScriptName>
+                    <ChildSound>sound_01_sp</ChildSound>
+                </Item>
+                <Item>
+                    <ScriptName>error</ScriptName>
+                    <ChildSound>sound_02_sp</ChildSound>
+                </Item>
+            </SoundSets>
+        </Item>
+    </Items>
 </Dat54>

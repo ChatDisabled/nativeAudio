@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AudioWaveContainer>
- <Version value="1" />
- <ChunkIndices value="True" />
- <Streams>
-  <Item>
-   <Name>sound01</Name>
-   <FileName>sound01.wav</FileName>
-   <Chunks>
+  <Version value="1" />
+  <ChunkIndices value="True" />
+  <Streams>
     <Item>
-     <Type>peak</Type>
+      <Name>sound01</Name>
+      <FileName>sound01.wav</FileName>
+      <Chunks>
+        <Item>
+          <Type>peak</Type>
+        </Item>
+        <Item>
+          <Type>data</Type>
+        </Item>
+        <Item>
+          <Type>format</Type>
+          <Codec>ADPCM</Codec>
+          <Samples value="135417" />
+          <SampleRate value="32000" />
+          <Headroom value="-100" />
+          <PlayBegin value="0" />
+          <PlayEnd value="0" />
+          <LoopBegin value="0" />
+          <LoopEnd value="0" />
+          <LoopPoint value="-1" />
+          <Peak unk="0" />
+        </Item>
+      </Chunks>
     </Item>
     <Item>
-     <Type>data</Type>
+      <Name>sound02</Name>
+      <FileName>sound02.wav</FileName>
+      <Chunks>
+        <Item>
+          <Type>peak</Type>
+        </Item>
+        <Item>
+          <Type>data</Type>
+        </Item>
+        <Item>
+          <Type>format</Type>
+          <Codec>ADPCM</Codec>
+          <Samples value="33436" />
+          <SampleRate value="32000" />
+          <Headroom value="-100" />
+          <PlayBegin value="0" />
+          <PlayEnd value="0" />
+          <LoopBegin value="0" />
+          <LoopEnd value="0" />
+          <LoopPoint value="-1" />
+          <Peak unk="0" />
+        </Item>
+      </Chunks>
     </Item>
-    <Item>
-     <Type>format</Type>
-     <Codec>ADPCM</Codec>
-     <Samples value="135417" />
-     <SampleRate value="32000" />
-     <Headroom value="-100" />
-     <PlayBegin value="0" />
-     <PlayEnd value="0" />
-     <LoopBegin value="0" />
-     <LoopEnd value="0" />
-     <LoopPoint value="-1" />
-     <Peak unk="0" />
-    </Item>
-    </Chunks>
-  </Item>
-  <Item>
-   <Name>sound02</Name>
-   <FileName>sound02.wav</FileName>
-   <Chunks>
-    <Item>
-     <Type>peak</Type>
-    </Item>
-    <Item>
-     <Type>data</Type>
-    </Item>
-    <Item>
-     <Type>format</Type>
-     <Codec>ADPCM</Codec>
-     <Samples value="33436" />
-     <SampleRate value="32000" />
-     <Headroom value="-100" />
-     <PlayBegin value="0" />
-     <PlayEnd value="0" />
-     <LoopBegin value="0" />
-     <LoopEnd value="0" />
-     <LoopPoint value="-1" />
-     <Peak unk="0" />
-    </Item>
-   </Chunks>
-  </Item>
- </Streams>
+  </Streams>
 </AudioWaveContainer>
